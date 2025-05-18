@@ -220,7 +220,24 @@ When using Docker, the `.env` file method is recommended as the environment vari
 The easiest way to run the analysis is using the included Jupyter notebook:
 
 1. Start Jupyter Lab (via Docker or manually)
+
+   ```bash
+   # From the context of your local machine...
+
+   cd what-lives
+   ./bin/run.sh
+   ```
+
 2. Open `dev.ipynb` in Jupyter Lab
+
+   ```bash
+   # Once working within Docker container (displayed user should be `magus`)
+
+   ./bin/jupyter.sh
+   ```
+
+   The JupyterLab server will be available at [http://localhost:8888](http://localhost:8888). Open `dev.ipynb`.
+
 3. Run all cells in the notebook
 
 This will:
