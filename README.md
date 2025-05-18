@@ -163,7 +163,7 @@ This project requires API keys for the following services:
 
 1. **Anthropic Claude** - For semantic analysis of definitions ([Get API Key](https://console.anthropic.com/))
 2. **OpenAI** - For text embeddings and alternative LLM analysis ([Get API Key](https://platform.openai.com/account/api-keys))
-3. **AWS** - For accessing AWS Bedrock services ([AWS Credentials Guide](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/setting-credentials-node.html))
+3. **AWS** - For accessing AWS Bedrock services ([AWS Credentials Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam.html))
 
 ### Environment Variables
 
