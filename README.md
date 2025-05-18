@@ -8,9 +8,7 @@
 
 A computational meta-analysis that leverages large language models (LLMs) to analyze and cluster expert definitions of life, revealing the underlying semantic landscape of how experts conceptualize "life" across different disciplines.
 
-<p align="center">
-  <img src="final-figures/FIGURE1_data_transformation_process.png" alt="Data transformation workflow" width="800"/>
-</p>
+![Data transformation workflow](final-figures/FIGURE1_data_transformation_process.png)
 
 ## Project Overview
 
