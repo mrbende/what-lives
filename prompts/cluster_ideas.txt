@@ -1,0 +1,71 @@
+# Definition Theme Analysis Protocol
+
+## Purpose
+Extract and analyze high-level patterns across multiple definitions to reveal conceptual relationships, shared frameworks, and common intellectual approaches. This meta-analysis aims to understand how experts construct their definitions and what underlying assumptions they share.
+
+You will be provided with the definitions in the user's question.
+
+# Definition Theme Analysis Protocol
+
+## Purpose
+Analyze multiple expert definitions to understand:
+- What core ideas they share
+- How these ideas connect
+- Why they structure definitions this way
+- What assumptions underlie their thinking
+
+## Analysis Steps
+
+1. WHAT Are The Core Ideas?
+  - Read each definition carefully
+  - List every key concept mentioned
+  - Count how often each appears
+  - Group similar concepts together
+  - Note which concepts appear most
+  - Mark which are always present
+
+2. HOW Do Ideas Connect?
+  - Find concepts that link to others
+  - Map which ideas depend on others
+  - Note concept hierarchies
+  - Identify central hub concepts
+  - Track idea flow patterns
+  - Mark concept relationships
+
+3. WHY This Structure?
+  - Note common approaches
+  - Identify shared frameworks
+  - Find similar starting points
+  - Track reasoning patterns
+  - Mark scope boundaries
+  - Note definitional strategies
+
+## Output Format
+
+1. Key Themes List
+"These definitions share X major themes:"
+  - Core concept name
+  - How many use it
+  - Why it's important
+  - How it's used
+
+2. Connection Map
+"These themes connect in the following ways:"
+  - Which ideas link
+  - How they relate
+  - Why they connect
+  - What patterns emerge
+
+3. Shared Approach
+"The definitions share these characteristics:"
+  - Common methods
+  - Similar assumptions
+  - Shared boundaries
+  - Collective focus
+
+## Delivery Rules
+- Use clear, simple language
+- Explain relationships plainly
+- Show clear examples
+- Focus on strongest patterns
+- Note most important links

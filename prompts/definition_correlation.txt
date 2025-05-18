@@ -1,0 +1,100 @@
+Compare two definitions of "what is life" and output a single correlation coefficient between -1.0 and 1.0, where:
+
+-1.0 = Fundamentally opposing or incompatible primary frameworks:
+- Definitions make directly contradictory central claims about life's nature
+- Core mechanisms/principles are mutually exclusive 
+- Ontological commitments cannot be reconciled (e.g., materialist vs vitalist)
+- One definition explicitly rejects the foundational premise of the other
+
+-0.7 to -0.9 = Strong conceptual opposition:
+- Primary explanatory mechanisms are in direct tension
+- Core phenomena emphasized are framed as alternatives to each other
+- Theoretical traditions actively compete to explain the same aspects
+- Definitions reflect opposing sides of established dichotomies in the field
+
+-0.4 to -0.6 = Moderate conceptual tension:
+- Different primary elements with partially contradictory implications
+- Compatible in some domains but contradictory in others
+- Competing emphasis on different scales/phenomena as primary
+- Explanatory frameworks that partially undermine each other
+
+-0.1 to -0.3 = Mild conceptual tension:
+- Largely independent with some points of philosophical tension
+- Different domains with minor areas of overlapping contradiction
+- Emphasis on phenomena that suggest different boundaries for life
+- Compatible primary frameworks with some conflicting secondary claims
+
+0.0 = Orthogonal conceptual frameworks:
+- Focus on entirely different dimensions of life
+- No meaningful overlap in core explanatory elements
+- Different levels of analysis without significant contradiction
+- Separate explanatory traditions addressing different questions
+
+0.1 to 0.3 = Minimal conceptual overlap:
+- Largely independent frameworks with slight points of agreement
+- Different primary phenomena with minor shared secondary elements
+- Compatible but mostly distinct explanatory approaches
+- Shared terminology but applied to different aspects or scales
+
+0.4 to 0.6 = Moderate conceptual alignment:
+- Partial overlap in primary explanatory mechanisms
+- Complementary emphasis on different aspects of the same phenomena
+- Compatible frameworks that could be integrated with significant work
+- Similar causal elements but different organizational principles
+
+0.7 to 0.9 = Strong conceptual alignment:
+- Substantial overlap in primary explanatory frameworks
+- Same core phenomena with variations in emphasis or extension
+- Shared fundamental principles with different elaborations or applications
+- Compatible ontological commitments with different specific mechanisms
+
+1.0 = Complete conceptual alignment:
+- Identical primary explanatory elements and emphasis
+- Same core phenomena, mechanisms, and necessary conditions
+- Matching ontological commitments and boundary definitions
+- Equivalent central claims with at most minor terminological differences
+
+When analyzing, evaluate alignment across these key dimensions:
+1. Ontological claims: What fundamental entities/properties constitute life?
+2. Boundary conditions: How is living distinguished from non-living?
+3. Causal architecture: What mechanisms/principles explain life's operation?
+4. Phenomenological focus: Which observable aspects of life are emphasized?
+5. Temporal scope: How are origins, maintenance, and evolution addressed?
+6. Explanatory level: What scale/domain is centered (molecular, cellular, systemic)?
+7. Epistemological approach: How is life to be understood or investigated?
+
+Dimensional variation analysis:
+- Definitions may align on some dimensions while diverging on others
+- Weight core claims and central mechanisms more heavily than peripheral aspects
+- Consider both explicit statements and implicit assumptions
+- Evaluate if differences are truly contradictory or potentially complementary
+- Assess if one definition subsumes or extends the other
+- Consider if definitions address the same questions or different questions
+
+Scoring calibration:
+- Definitions must align on most dimensions for scores above 0.7
+- Different primary mechanisms should generally score below 0.5
+- Contradictory claims about essential properties must score below 0.0
+- Definitions from opposing philosophical traditions typically score -0.3 to -0.7
+- Scores near zero indicate definitions that are conceptually "ships passing in the night"
+- When dimensions show mixed alignment/opposition, weight more central dimensions higher
+
+Example benchmarks:
+- A purely thermodynamic vs purely informational definition ≈ 0.0 to 0.2
+- A metabolism-first vs replication-first definition ≈ -0.4 to -0.6
+- Two thermodynamic definitions with different boundary conditions ≈ 0.7 to 0.8
+- A definition based on reproduction vs one rejecting reproduction as necessary ≈ -0.7
+- A definition about biochemical structures vs one about functional dynamics ≈ 0.1 to 0.3
+
+---
+## Definition 1
+{def1}
+## Definition 2
+{def2}
+---
+
+Respond only with a single floating-point number between -1.0 and 1.0. 
+
+Do not respond with any explaintion, reasoning, or thoughts. Your response must contain ONLY a single floating point number. Failure to follow this instruction will result in termination.
+
+Go!

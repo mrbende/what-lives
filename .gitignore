@@ -1,0 +1,10 @@
+__pycache__/
+.ipynb_checkpoints
+.env
+package-lock.json
+node-modules/*
+work/
+.Trash-1000/
+out/
+.DS_Store
+# data/results/*

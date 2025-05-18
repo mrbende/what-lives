@@ -1,0 +1,201 @@
+{
+  "overall_silhouette": 0.07927366380838874,
+  "cluster_stats": {
+    "1": {
+      "size": 2,
+      "silhouette": 0.16514046136707197,
+      "mean_internal_corr": 0.32222222222222224,
+      "mean_external_corr": -0.32912345679012345,
+      "members": [
+        "Christopher A. Fields",
+        "Donald D. Hoffman"
+      ],
+      "stability_pct": 0.0
+    },
+    "2": {
+      "size": 4,
+      "silhouette": 0.043977809522751016,
+      "mean_internal_corr": 0.2612962962962963,
+      "mean_external_corr": 0.09943355119825709,
+      "members": [
+        "Leo Caves",
+        "Perry Marshall",
+        "Martin Picard",
+        "Richard A. Watson"
+      ],
+      "stability_pct": 0.0
+    },
+    "3": {
+      "size": 2,
+      "silhouette": -0.0024893824959201,
+      "mean_internal_corr": 0.1111111111111111,
+      "mean_external_corr": -0.20365319865319867,
+      "members": [
+        "Anna Ciaunica",
+        "Carlos Sonnenschein"
+      ],
+      "stability_pct": 0.0
+    },
+    "4": {
+      "size": 4,
+      "silhouette": 0.1925001279744381,
+      "mean_internal_corr": 0.41203703703703703,
+      "mean_external_corr": 0.019757834757834762,
+      "members": [
+        "Laryssa Albantakis",
+        "Steven A. Frank",
+        "Jeremy Gunawardena",
+        "Kenneth O. Stanley"
+      ],
+      "stability_pct": 0.0
+    },
+    "5": {
+      "size": 24,
+      "silhouette": 0.07257059258447836,
+      "mean_internal_corr": 0.5108242387278583,
+      "mean_external_corr": 0.1945114942528736,
+      "members": [
+        "David Ackley",
+        "Blaise Ag\u00fcera y Arcas",
+        "Philip Ball",
+        "Joshua Bongard",
+        "Gordana Dodig-Crnkovic",
+        "Walter Fontana",
+        "Tom Froese",
+        "Francis Heylighen",
+        "Paco Calvo",
+        "David Krakauer",
+        "Michael Levin",
+        "Pier Luigi Gentili",
+        "Pamela Lyon",
+        "William Hughes Miller",
+        "Denis Noble",
+        "Arthur S. Reber",
+        "Oded Rechavi",
+        "James A. Shapiro",
+        "Mark Solms",
+        "Ana M. Soto",
+        "Susan Stepney",
+        "Sonya Sultan",
+        "Jordi Vallverdu",
+        "Olaf Witkowski"
+      ],
+      "stability_pct": 0.0
+    },
+    "6": {
+      "size": 21,
+      "silhouette": 0.05646638588046052,
+      "mean_internal_corr": 0.5129047619047619,
+      "mean_external_corr": 0.2535384970032273,
+      "members": [
+        "Douglas Brash",
+        "Pranab Das",
+        "Jamie A. Davies",
+        "Paul C. W. Davies",
+        "Karl Friston",
+        "Georgi Yordanov Georgiev",
+        "Scott F. Gilbert",
+        "Sui Huang",
+        "Eva Jablonka",
+        "Timothy Jackson",
+        "Stuart Kauffman",
+        "Nick Lane",
+        "Daniel McShea",
+        "Kevin J. Mitchell",
+        "Stuart Alan Newman",
+        "Alistair V. W. Nunn",
+        "Theodore Pavlic",
+        "Predrag Slijepcevic",
+        "Ricard Sol\u00e9",
+        "Eors Szathmary",
+        "Wesley P. Wong"
+      ],
+      "stability_pct": 0.0
+    },
+    "7": {
+      "size": 3,
+      "silhouette": 0.20347322839860707,
+      "mean_internal_corr": 0.64,
+      "mean_external_corr": 0.02080808080808083,
+      "members": [
+        "Andy Adamatzky",
+        "Chris Adami",
+        "Rita Pizzi"
+      ],
+      "stability_pct": 0.3
+    },
+    "8": {
+      "size": 8,
+      "silhouette": 0.07268590256579999,
+      "mean_internal_corr": 0.5428174603174604,
+      "mean_external_corr": 0.1984676684881603,
+      "members": [
+        "Frantisek Baluska",
+        "Audrey Dussutour",
+        "George F. R. Ellis",
+        "Don Ingber",
+        "Arthur Lander",
+        "Will Ratcliff",
+        "Aaron Sloman",
+        "Jack Tuszynski"
+      ],
+      "stability_pct": 0.0
+    }
+  },
+  "cluster_sizes": {
+    "1": 2,
+    "2": 4,
+    "3": 2,
+    "4": 4,
+    "5": 24,
+    "6": 21,
+    "7": 3,
+    "8": 8
+  },
+  "stability_results": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 3,
+    "8": 0
+  },
+  "rand_indices": {
+    "Anthropic Claude 3.7 Sonnet vs Llama 3.3 70B Instruct": 0.17225255984395835,
+    "Anthropic Claude 3.7 Sonnet vs GPT-4o": 0.17086224246889634,
+    "Llama 3.3 70B Instruct vs GPT-4o": 0.23183549201094228
+  },
+  "consistency_percentage": 2.941176470588235,
+  "inter_cluster_correlations": {
+    "1-2": -0.18777777777777777,
+    "1-3": -0.3847222222222222,
+    "1-4": -0.06458333333333334,
+    "1-5": -0.23849537037037039,
+    "1-6": -0.2916666666666667,
+    "1-7": -0.688888888888889,
+    "1-8": -0.5899305555555555,
+    "2-3": -0.22083333333333335,
+    "2-4": -0.3677083333333334,
+    "2-5": 0.054039351851851845,
+    "2-6": -0.06990740740740742,
+    "2-7": -0.5425925925925926,
+    "2-8": -0.25722222222222224,
+    "3-4": -0.4131944444444444,
+    "3-5": -0.19317129629629629,
+    "3-6": -0.22082010582010583,
+    "3-7": -0.43611111111111117,
+    "3-8": -0.13229166666666664,
+    "4-5": 0.043090277777777776,
+    "4-6": 0.13222222222222224,
+    "4-7": -0.23425925925925928,
+    "4-8": -0.05243055555555555,
+    "5-6": 0.3959727292768959,
+    "5-7": -0.04314814814814813,
+    "5-8": 0.3577430555555556,
+    "6-7": 0.0014638447971781407,
+    "6-8": 0.392063492063492,
+    "7-8": 0.4603240740740741
+  }
+}

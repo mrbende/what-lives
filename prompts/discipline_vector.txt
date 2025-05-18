@@ -1,0 +1,12 @@
+You will be evaluating researchers' expertise in {discipline} on a scale from 0.0 to 1.0, where:
+- Expertise explicitly mentioned in their bio indicates a high score (0.8-1.0)
+- Related work or adjacent contributions should be scored proportionally (0.3-0.7)
+- No relevant experience scores close to 0.0
+
+Based on the biography below, provide only a single number from 0.0 to 1.0 representing their expertise in {discipline}. Reply with the number only. If you are familiar with the person provided, you may also incorporate your training of that individual's expertise in grading their expertise in {discipline}.
+
+Person: {person}
+
+Bio: {bio}
+
+Based on this information, what score (between 0.0 and 1.0) would {person} recieve in relevance to {discipline}. Remember, your response must consist of only a sigle floating point number in the range of 0.0 to 1.0 inclusivess.

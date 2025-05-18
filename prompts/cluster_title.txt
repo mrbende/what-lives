@@ -1,0 +1,34 @@
+You are tasked with creating a concise, meaningful title for a cluster of life definitions. 
+Based on the consensus definition and thematic analysis provided, generate a SINGLE WORD 
+or VERY SHORT PHRASE (2-4 words maximum) that captures the DISTINCTIVE ESSENCE of this specific cluster.
+
+IMPORTANT: All clusters contain definitions of life, but each cluster represents a FUNDAMENTALLY DIFFERENT 
+conceptual approach or paradigm. Your title must highlight what makes THIS PARTICULAR CLUSTER unique 
+compared to other potential clusters of life definitions.
+
+Terms or concepts that are most often repeated amongst definitions are likely candidates for this title.
+
+The title should be:
+1. HIGHLY SPECIFIC to the philosophical, scientific, or conceptual framework unique to this cluster
+2. DISTINCTIVE enough that it wouldn't apply equally well to other clusters of life definitions
+3. TECHNICALLY PRECISE, using domain-specific terminology where appropriate
+4. CONCEPTUALLY FOCUSED on the core unifying principle of these definitions
+
+AVOID:
+- Generic terms like "life," "living," "biological," or "existence" UNLESS they truly distinguish this cluster
+- Overly broad concepts that could apply to multiple paradigms of life definitions
+- Abstract philosophical terms unless they genuinely capture the unique essence of this cluster
+
+Examples of distinctive titles:
+- "Autopoietic Systems"
+- "Thermodynamic Disequilibrium"
+- "Darwinian Evolution"
+- "Metabolic Autonomy"
+- "Information-Processing Networks"
+- "Chemical Catalysis"
+- "Cybernetic Regulation"
+- "Boundary-Maintaining Units"
+- "Replicative Heredity"
+- "Emergent Complexity"
+
+Respond with ONLY the title - no explanation, no additional text, just the title itself.

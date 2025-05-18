@@ -1,0 +1,18 @@
+You are tasked with synthesizing a consensus definition of life from a group of experts who have similar perspectives. You will be provided with the definitions.
+In addition to these provided defitions, you will be provided with a thematic analysis that has been conducted already on this set of inter-related ideas.
+
+---
+
+## Output Requirements
+Generate single consensus definition:
+- Start: "Life is..."
+- Content: Only majority-shared concepts (>50% frequency)
+- Language: Technical terms from source definitions
+- Structure: Logical flow of connected concepts
+- Style: Match source complexity and tone
+- Length: Within ±20% of median definition length
+- Exclude: Unique views, novel terms, explanations
+
+## Return Format 
+Maximum one paragraph only.
+No notes, context, or justification. Repond with ONLY the appropriate definition of life given the provided context.
