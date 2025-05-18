@@ -96,7 +96,7 @@ The easiest way to get started is using Docker, which ensures all dependencies a
 2. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/AttuneIntelligence/what-lives.git
+   git clone https://github.com/mrbende/what-lives.git
    cd what-lives
    ```
 
@@ -135,7 +135,7 @@ If you prefer not to use Docker, you can install the dependencies directly:
 2. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/AttuneIntelligence/what-lives.git
+   git clone https://github.com/mrbende/what-lives.git
    cd what-lives
    ```
 
@@ -209,9 +209,11 @@ There are two ways to set up the required environment variables:
    export AWS_SECRET_ACCESS_KEY=your_aws_secret_key
    ```
 
+   Note that if setting environment variables directly, it must be done inside of the running Docker container after running `bin/run.sh` to start the containerzed environment.
+
 When using Docker, the `.env` file method is recommended as the environment variables will be automatically loaded into the container.
 
-It is possible to provide only relevant API tokens for the chosen model analysis. For example, if you'd like to test the computational pipeline with just GPT-4o then you can provide only the `OPENAI_API_KEY` and ignore the rest.
+**Note** It is possible to provide only relevant API tokens for the chosen model analysis. For example, if you'd like to test the computational pipeline with just GPT-4o then you can provide only the `OPENAI_API_KEY` and ignore the rest.
 
 ## Running the Analysis
 
