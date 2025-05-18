@@ -10,7 +10,7 @@ A computational meta-analysis that leverages large language models (LLMs) to ana
 
 <p align="center">
   <img src="final-figures/FIGURE1_data_transformation_process.png" alt="Data transformation workflow" width="800"/>
-</p>:
+</p>
 
 ## Project Overview
 
