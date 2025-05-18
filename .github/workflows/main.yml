@@ -10,7 +10,6 @@ on:
   workflow_dispatch:
 env:
   DOCKER_BUILDKIT: 1
-  IMAGE_NAME: whatlives
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
@@ -40,12 +39,12 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: environment/Dockerfile
+          file: Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:main
-            ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:main-${{ env.CURRENT_DATE }}
+            ghcr.io/${{ github.repository_owner }}/whatlives:main
+            ghcr.io/${{ github.repository_owner }}/whatlives:main-${{ env.CURRENT_DATE }}
           # cache-from: |
-          #   type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:main
-          cache-to: |
-            type=inline
+          # #   type=registry,ref=ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:main
+          # cache-to: |
+          #   type=inline
