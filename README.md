@@ -1,6 +1,6 @@
 # What Lives: Definition Clustering Analysis
 
-[![build](https://github.com/AttuneIntelligence/what-lives/actions/workflows/main.yml/badge.svg)](https://github.com/AttuneIntelligence/what-lives/actions)
+[![build](https://github.com/mrbende/what-lives/actions/workflows/main.yml/badge.svg)](https://github.com/mrbende/what-lives/actions)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/arXiv-2505.12345-b31b1b.svg)](https://arxiv.org/)
@@ -466,7 +466,7 @@ If you use this code or methodology in your research, please cite:
 
 ```
 Bender, R., Kofman, K., Agüera y Arcas, B., & Levin, M. (2025). What Lives? A meta-analysis
-of diverse opinions on the definition of life. Journal of Interdisciplinary Studies, 42(3), 234-256.
+of diverse opinions on the definition of life. <JOURNAL REF TO COME>
 ```
 
 ## License
