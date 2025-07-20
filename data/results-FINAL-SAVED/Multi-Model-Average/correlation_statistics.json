@@ -1,0 +1,66 @@
+{
+  "model_stats": {
+    "Anthropic Claude 3.7 Sonnet": {
+      "range": [
+        -0.8000000000000002,
+        0.8333333333333334
+      ],
+      "mean": 0.2955662862159789,
+      "median": 0.3666666666666667,
+      "std": 0.371858248517352,
+      "skewness": -0.9718400053561591
+    },
+    "Llama 3.3 70B Instruct": {
+      "range": [
+        -0.9,
+        0.85
+      ],
+      "mean": 0.17059005106818848,
+      "median": 0.20000000000000004,
+      "std": 0.5103004709238359,
+      "skewness": -0.9032389969618232
+    },
+    "GPT-4o": {
+      "range": [
+        -0.8500000000000001,
+        0.9666666666666666
+      ],
+      "mean": 0.1979953175299971,
+      "median": 0.3166666666666667,
+      "std": 0.3966569405574114,
+      "skewness": -0.7556044599612569
+    },
+    "Multi-Model-Average": {
+      "range": [
+        -0.838888888888889,
+        0.8166666666666668
+      ],
+      "mean": 0.22138388493805483,
+      "median": 0.31666666666666665,
+      "std": 0.39359449197320134,
+      "skewness": -0.7400551803212118,
+      "kurtosis": -0.34384200270245735
+    }
+  },
+  "agreement_stats": {
+    "Anthropic Claude 3.7 Sonnet vs Llama 3.3 70B Instruct": {
+      "correlation": 0.7279420621891389,
+      "agreement_pct": 58.95522388059702,
+      "mean_abs_diff": 0.24979695771144278,
+      "max_abs_diff": 1.5
+    },
+    "Anthropic Claude 3.7 Sonnet vs GPT-4o": {
+      "correlation": 0.8102723988948347,
+      "agreement_pct": 70.50043898156278,
+      "mean_abs_diff": 0.17720222417325138,
+      "max_abs_diff": 1.5
+    },
+    "Llama 3.3 70B Instruct vs GPT-4o": {
+      "correlation": 0.7976944280118631,
+      "agreement_pct": 62.467076382791916,
+      "mean_abs_diff": 0.2157729600526778,
+      "max_abs_diff": 1.1500000000000001
+    }
+  },
+  "entropy_stats": {}
+}

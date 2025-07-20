@@ -1,0 +1,35 @@
+Model Agreement Statistics
+=========================
+
+Differences from Multi-Model Average:
+GPT-4o:
+  Mean absolute difference: 0.0994
+  Max absolute difference: 0.7333
+  Standard deviation of difference: 0.1410
+  Agreement with average: 85.7%
+
+Llama 3.3 70B Instruct:
+  Mean absolute difference: 0.1537
+  Max absolute difference: 0.9222
+  Standard deviation of difference: 0.2112
+  Agreement with average: 73.4%
+
+Anthropic Claude 3.7 Sonnet:
+  Mean absolute difference: 0.1319
+  Max absolute difference: 1.0000
+  Standard deviation of difference: 0.1749
+  Agreement with average: 79.6%
+
+Pairwise Model Agreements:
+GPT-4o vs Llama 3.3 70B Instruct:
+  Agreement: 60.5%
+  Correlation: 0.8052
+
+GPT-4o vs Anthropic Claude 3.7 Sonnet:
+  Agreement: 71.7%
+  Correlation: 0.8210
+
+Llama 3.3 70B Instruct vs Anthropic Claude 3.7 Sonnet:
+  Agreement: 56.4%
+  Correlation: 0.7291
+
